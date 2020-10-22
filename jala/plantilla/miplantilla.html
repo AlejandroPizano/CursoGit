@@ -1,0 +1,31 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+        <h1>Perro</h1>
+	</head>
+	<body>
+		<h1>Hola, {{nombre_persona}} fecha actual es:  {{Hora}} </h1>
+		<P>Tu edad actual es {{edad}}</P>
+		<h1>y los temas a tratar hoy son: </h1>
+		{% if nombre_persona.lower == 'alejandro' %}
+			<P>AHUEVITO ERES TU </P>
+		{% else %}	
+			<p>Lo siento tu no eres {{nombre_persona}}</p>
+		{% endif %}
+
+		{% if temas %} 
+		
+			{% for eltemin in temas %} 
+			<ul>
+				<li>
+				<h3>{{eltemin}}</h3>
+				</li>
+			</ul>
+			{% endfor %}
+			{% else %} <p>No hay temas!!!!!!!!1</p>
+
+		{% endif %}
+		
+		
+	</body>
+</html>
