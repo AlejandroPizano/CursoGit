@@ -7,7 +7,7 @@ class Persona (object):
     def __init__(self, nombre,edad):
         self.nombre=nombre
         self.edad=edad
-#esta es la version de prueba
+#conectando con web
 
 
 
