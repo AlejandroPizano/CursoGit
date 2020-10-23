@@ -7,7 +7,9 @@ class Persona (object):
     def __init__(self, nombre,edad):
         self.nombre=nombre
         self.edad=edad
-#esta es la version 2 
+#esta es la version de prueba
+
+
 
 def saludo(request):
     p1= Persona("ALEJANDRO", 18)
@@ -44,6 +46,9 @@ def edad(request, anio):
         documento= "Ya vas a estar muerto papi"
     return HttpResponse(documento)
 
+def opening(request):
+    return HttpResponse("opening")
+    
 def conoci (request):
 
     return HttpResponse("he declarado que ya aprendiste un 1% mas!")
