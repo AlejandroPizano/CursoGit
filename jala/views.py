@@ -7,10 +7,7 @@ class Persona (object):
     def __init__(self, nombre,edad):
         self.nombre=nombre
         self.edad=edad
-        
-def saludo2 (request):
-    p1= Persona("ALEJANDROoooooo", 18)
-    fecha = datetime.datetime.now()
+#esta es la version 1 si llegas a ella ya le entendiste
 
 def saludo(request):
     p1= Persona("ALEJANDRO", 18)
@@ -28,9 +25,7 @@ def saludo(request):
     return HttpResponse(documento)
 
 def closing(request):
-
-    return HttpResponse("Bye, I'm out!!!!")#solo modificando un poco ahora ya entiendes mas como sirve vdd?
-
+    return HttpResponse("Bye, I'm out!!!!")
 
 
 def dameFecha(request):
