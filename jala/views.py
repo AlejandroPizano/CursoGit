@@ -43,6 +43,6 @@ def edad(request, anio):
         documento= "Ya vas a estar muerto papi"
     return HttpResponse(documento)
 
-def conocimiento (request):
+def conoci (request):
 
     return HttpResponse("he declarado que ya aprendiste un 1% mas!")
