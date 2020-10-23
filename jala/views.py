@@ -25,8 +25,14 @@ def saludo(request):
     return HttpResponse(documento)
 
 def closing(request):
+<<<<<<< HEAD
     return HttpResponse("Bye, I'm out")
     
+=======
+    return HttpResponse("Bye, I'm out!!!!")#solo modificando un poco
+
+
+>>>>>>> 443e9b944aeed9d6f82a8597a1e2a4e9ea2604f8
 def dameFecha(request):
     fecha = datetime.datetime.now()
     cortecia= ("La fecha y hora actual es %s" %fecha)
