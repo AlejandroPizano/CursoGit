@@ -7,7 +7,10 @@ class Persona (object):
     def __init__(self, nombre,edad):
         self.nombre=nombre
         self.edad=edad
-
+        
+def saludo2 (request):
+    p1= Persona("ALEJANDROoooooo", 18)
+    fecha = datetime.datetime.now()
 
 def saludo(request):
     p1= Persona("ALEJANDRO", 18)
