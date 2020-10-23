@@ -47,3 +47,4 @@ def edad(request, anio):
 def conoci (request):
 
     return HttpResponse("he declarado que ya aprendiste un 1% mas!")
+#a ver si me sale debajo de conocí
