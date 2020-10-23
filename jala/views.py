@@ -25,7 +25,8 @@ def saludo(request):
     return HttpResponse(documento)
 
 def closing(request):
-    return HttpResponse("Bye, I'm out")
+    return HttpResponse("Bye, I'm out!!!!")#solo modificando un poco
+
 
 def dameFecha(request):
     fecha = datetime.datetime.now()
