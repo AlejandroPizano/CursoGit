@@ -7,7 +7,7 @@ class Persona (object):
     def __init__(self, nombre,edad):
         self.nombre=nombre
         self.edad=edad
-#esta es la version 1 si llegas a ella ya le entendiste
+#esta es la version 2 
 
 def saludo(request):
     p1= Persona("ALEJANDRO", 18)
